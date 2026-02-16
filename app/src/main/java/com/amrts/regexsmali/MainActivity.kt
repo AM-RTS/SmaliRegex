@@ -66,8 +66,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        val preferencesRepository = UserPreferencesRepository(applicationContext)
         setContent {
-            val vm: SmaliConverterViewModel = viewModel()
+            val vm: SmaliConverterViewModel = viewModel(
+                factory = SmaliConverterViewModel.Factory(preferencesRepository)
+            )
             val uiState by vm.uiState.collectAsState()
             val systemDark = isSystemInDarkTheme()
             val isDark = uiState.isDarkTheme ?: systemDark

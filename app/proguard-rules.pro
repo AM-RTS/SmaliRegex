@@ -22,3 +22,5 @@
 
 -keep class com.amrts.regexsmali.SmaliConverterUiState { *; }
 -keep class com.amrts.regexsmali.SmaliConverterViewModel { *; }
+-keep class com.amrts.regexsmali.UserPreferencesRepository { *; }
+-keep class com.amrts.regexsmali.UserPreferences { *; }

@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left curly brace { -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M38,30 Q38,22 45,22 L48,22 L48,26 L45,26 Q41,26 41,30 L41,40 Q41,45 36,48 L36,49 Q41,52 41,57 L41,67 Q41,71 45,71 L48,71 L48,75 L45,75 Q38,75 38,67 L38,57 Q38,52 34,49 L34,48 Q38,45 38,40 Z" />
+
+    <!-- Three dots ... -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M49,51 A2.5,2.5 0 1,1 54,51 A2.5,2.5 0 1,1 49,51" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M42,51 A2.5,2.5 0 1,1 47,51 A2.5,2.5 0 1,1 42,51" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M56,51 A2.5,2.5 0 1,1 61,51 A2.5,2.5 0 1,1 56,51" />
+
+    <!-- Right curly brace } -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M70,30 Q70,22 63,22 L60,22 L60,26 L63,26 Q67,26 67,30 L67,40 Q67,45 72,48 L72,49 Q67,52 67,57 L67,67 Q67,71 63,71 L60,71 L60,75 L63,75 Q70,75 70,67 L70,57 Q70,52 74,49 L74,48 Q70,45 70,40 Z" />
+</vector>
