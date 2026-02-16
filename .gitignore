@@ -46,4 +46,5 @@ replay_pid*.log
 # Misc
 *.jpeg
 *.png
+*.svg
 *.mtsx
